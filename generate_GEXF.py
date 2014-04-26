@@ -11,6 +11,10 @@
 # This program generates XML input files for Gephi, an open source network visualization
 # and exploration platform. Learn more from https://gephi.org/
 # 
+# Visit https://github.com/meren/GEXF-generator for more information about this script,
+#
+# If you have any questions, send them to meren@mbl.edu
+#
 
 import sys
 

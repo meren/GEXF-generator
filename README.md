@@ -11,4 +11,17 @@ You can generate an environment file from an observation matrix using the script
 
 A mapping file will generate an XML file with much more information that can be used for visualization purposes from within Gephi. An example mapping file can also be found in samples directory. Briefly, the first column of the mapping file should be identical to the observation matrix. Any category listed in this file will appear in drop boxes in Gephi. Keyword "color" identifies a special column in this file. HTML colors given in this column color samples in Gephi directly.
 
-If you expect more from this script, please let me know. You can send your e-mails to meren@mbl.edu.
+To generate an example GEXF file using the sample environment file, run this from within the directory:
+
+    python generate_GEXF.py samples/oral-environment.txt
+
+This one will take the mapping file into consideration:
+
+    python generate_GEXF.py samples/oral-environment.txt --sample-mapping samples/oral-mapping.txt
+
+A successful run will generate `samples/oral-environment.gexf`, which can be opened with Gephi.
+
+Questions
+=========
+
+If you expect more from this script, or have any questions, please let me know. You can send your e-mails to meren@mbl.edu.

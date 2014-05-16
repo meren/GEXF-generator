@@ -3,7 +3,7 @@ GEXF-generator
 
 This repository contains a script to generate network files from any TAB-delimited observation matrix to be analyzed with [Gephi](http://gephi.org).
 
-Please let me know if you are using this script, and need more help.
+Please let me know if you are using this script, and need more help. Contact info is at the end of this file.
 
 An __environment file__ is the expected input file, which consists of three columns that are separated from each other by a TAB character: unit, sample and count. Unit can be any unit (taxonomy, functions, OTU IDs, etc). Sample column contains sample names. Count column contains number of observations for a given unit in a sample. Please see the [example environment](https://raw.githubusercontent.com/meren/GEXF-generator/master/samples/oral-environment.txt) file in the samples directory.
 

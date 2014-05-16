@@ -1,7 +1,7 @@
 GEXF-generator
 ==============
 
-This repository contains a simple script to generate network files from any TAB-delimited observation matrix.
+This repository contains a script to generate network files from any TAB-delimited observation matrix to be analyzed with [Gephi](http://gephi.org).
 
 Please let me know if you are using this script, and need more help.
 
